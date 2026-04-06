@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Dev Page</h1>
+      <button class="btnn" id="btnn">&#9776;</button>
+      <ul class="ulx" id="ulx">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+    </nav>
+
+    <section id="hero" class="hero">
+      <h1>Welcome Developer 🚀</h1>
+      <div class="xyz">
+        <input
+          type="text"
+          placeholder="Enter your name"
+          class="textbox"
+          id="nameinput"
+        />
+        <button class="startbtn" id="startbtn">Start</button>
+        <button class="darkmodebtn" id="darkmodebtn">Dark Mode</button>
+      </div>
+      <p id="output"></p>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <p>
+        This is a simple interactive landing page built using HTML, CSS, and JS.
+      </p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <input
+        type="text"
+        id="contactInput"
+        placeholder="Your message"
+        class="textbox"
+      />
+      <button id="submitBtn" class="startbtn">Submit</button>
+    </section>
+
+    <div class="resumebtndiv" id="resume">
+      <button id="resumebtn" class="resumebtn">Resume Here !!</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

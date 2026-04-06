@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(250, 250, 250);
+  font-family: cursive;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: rgb(24, 23, 23);
+  color: white;
+  align-items: center;
+}
+
+.btnn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(42, 42, 244);
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+.ulx {
+  display: none;
+}
+
+.ulx.active {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btnn:hover {
+  background-color: rgb(56, 56, 237);
+  cursor: pointer;
+}
+
+.hero {
+  padding: 40px;
+  text-align: center;
+}
+
+.textbox {
+  width: 250px;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.startbtn {
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(49, 49, 245);
+  margin-right: 15px;
+}
+
+.startbtn:hover {
+  background-color: rgb(103, 103, 239);
+  cursor: pointer;
+}
+
+.dark {
+  background-color: rgb(39, 38, 38);
+  color: white;
+}
+
+.darkmodebtn {
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(49, 49, 245);
+}
+
+.darkmodebtn:hover {
+  background-color: rgb(103, 103, 239);
+  cursor: pointer;
+}
+
+.xyz {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.about {
+  text-align: center;
+  margin-top: 1000px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 1000px;
+}
+
+.resumebtndiv {
+  margin-top: 1000px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.resumebtn {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(49, 49, 245);
+  margin-right: 15px;
+}
+
+.resumebtn:hover {
+  background-color: rgb(103, 103, 239);
+  cursor: pointer;
+}

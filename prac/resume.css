@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(223, 236, 248);
+  font-family: cursive;
+}
+
+.imagez {
+  height: 100px;
+  width: 100px;
+}
+
+.maincontainer {
+  width: 600px;
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+}
+
+.btnMain {
+  width: 600px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(56, 56, 240);
+  color: white;
+}
+
+.btnMain:hover {
+  cursor: pointer;
+  background-color: rgb(102, 102, 244);
+}
